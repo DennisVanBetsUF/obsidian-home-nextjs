@@ -10,7 +10,7 @@ const searchIndex = allPosts.map((p) => {
   return {
     slug: p.slug,
     title: p.title,
-    excerpt: getMDExcerpt(p.content),
+    excerpt: p.excerpt || getMDExcerpt(p.content),
     date: p.date,
     author: p.author,
   }
