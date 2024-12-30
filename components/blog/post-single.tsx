@@ -6,6 +6,7 @@ import PostMeta from './post-meta';
 
 type Props = {
   title: string,
+  excerpt: string,
   content: string,
   date?: string,
   author?: Author,
@@ -18,6 +19,7 @@ type Props = {
 
 function PostSingle({
   title,
+  excerpt,
   date,
   author,
   content,
@@ -35,6 +37,7 @@ function PostSingle({
               <header className="max-w-3xl mx-auto mb-20">
                 {/* Title */}
                 <h1 className="h1 text-center mb-4 text-6xl">{title}</h1>
+                <h6 className="h6 text-center mb-4 markdown-body">{excerpt}</h6>
               </header>
 
               {/* Article content */}
