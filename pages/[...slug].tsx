@@ -32,6 +32,7 @@ export default function Post({ post, backlinks }: Props) {
         <Layout>
           <PostSingle
             title={post.title}
+            excerpt={post.excerpt}
             content={post.content}
             date={post.date}
             author={post.author}
