@@ -86,6 +86,7 @@ function Search({ visible, setVisible }) {
           <PostPreview
             key={res.item.slug}
             title={res.item.title}
+            preview={res.item.preview}
             excerpt={res.item.excerpt}
             slug={res.item.slug}
             date={res.item.date}

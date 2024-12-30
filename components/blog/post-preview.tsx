@@ -4,6 +4,7 @@ import PostMeta from "./post-meta"
 
 type Props = {
   title: string
+  preview: string,
   date?: string
   excerpt: string
   author?: Author
@@ -12,6 +13,7 @@ type Props = {
 
 const PostPreview = ({
   title,
+  preview,
   date,
   excerpt,
   author,
@@ -26,7 +28,7 @@ const PostPreview = ({
           </h2>
         </header>
         <div className="text-lg text-gray-600 mb-4 text-ellipsis">
-          {excerpt.slice(0, 500)}
+          {preview || excerpt.slice(0, 500)}
         </div>
         <footer className="text-sm">
           <PostMeta date={date} author={author} />
