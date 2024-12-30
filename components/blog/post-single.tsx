@@ -37,7 +37,6 @@ function PostSingle({
               <header className="max-w-3xl mx-auto mb-20">
                 {/* Title */}
                 <h1 className="h1 text-center mb-4 text-6xl">{title}</h1>
-                <h6 className="h6 text-center mb-4 markdown-body">{excerpt}</h6>
               </header>
 
               {/* Article content */}
