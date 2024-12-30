@@ -1,0 +1,317 @@
+Received: from AS8P193MB1224.EURP193.PROD.OUTLOOK.COM (2603:10a6:20b:334::19)
+ by AM9P193MB0951.EURP193.PROD.OUTLOOK.COM with HTTPS; Tue, 26 Nov 2024
+ 14:12:30 +0000
+Received: from AS9PR06CA0328.eurprd06.prod.outlook.com (2603:10a6:20b:45b::31)
+ by AS8P193MB1224.EURP193.PROD.OUTLOOK.COM (2603:10a6:20b:334::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8182.21; Tue, 26 Nov
+ 2024 14:12:27 +0000
+Received: from AMS1EPF00000040.eurprd04.prod.outlook.com
+ (2603:10a6:20b:45b:cafe::50) by AS9PR06CA0328.outlook.office365.com
+ (2603:10a6:20b:45b::31) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.8182.21 via Frontend Transport; Tue,
+ 26 Nov 2024 14:12:27 +0000
+Received: from xtrwhnph.outbound-mail.sendgrid.net (167.89.2.48) by
+ AMS1EPF00000040.mail.protection.outlook.com (10.167.16.37) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.8207.12
+ via Frontend Transport; Tue, 26 Nov 2024 14:12:27 +0000
+Received: by recvd-67bb747754-b6wq5 with SMTP id recvd-67bb747754-b6wq5-1-6745D74A-7
+	2024-11-26 14:12:26.140512362 +0000 UTC m=+1011003.527670090
+Received: from mailservice-7fb9f9b89d-sngkj (unknown)
+	by geopod-ismtpd-canary-0 (SG) with ESMTP id 45eali_CQXOHTos33LohBg
+	for <sdg@notariaatwv.be>; Tue, 26 Nov 2024 14:12:26.075 +0000 (UTC)
+From: "noreply@klim-cicc.be" <noreply@klim-cicc.be>
+To: Scott De Greef <sdg@notariswellens.be>
+Subject: KLIM-CICC aanvraag (8bfe9be0-3899-48c5-8516-3dcf6630c6ed) ref (5190)
+ - bevestiging
+Thread-Topic: KLIM-CICC aanvraag (8bfe9be0-3899-48c5-8516-3dcf6630c6ed) ref
+ (5190) - bevestiging
+Thread-Index: AQHbQA07P382h5wAT0W+LQgmLM//Og==
+Date: Tue, 26 Nov 2024 14:12:26 +0000
+Message-ID: <45eali_CQXOHTos33LohBg@geopod-ismtpd-canary-0>
+Content-Language: nl-BE
+X-MS-Exchange-Organization-AuthSource:
+ AMS1EPF00000040.eurprd04.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2671baba-21bb-43e8-2b93-08dd0e245bc3
+X-MS-TNEF-Correlator:
+received-spf: Pass (protection.outlook.com: domain of em9148.klim-cicc.be
+ designates 167.89.2.48 as permitted sender) receiver=protection.outlook.com;
+ client-ip=167.89.2.48; helo=xtrwhnph.outbound-mail.sendgrid.net; pr=C
+authentication-results: spf=pass (sender IP is 167.89.2.48)
+ smtp.mailfrom=em9148.klim-cicc.be; dkim=pass (signature was verified)
+ header.d=klim-cicc.be;dmarc=pass action=none
+ header.from=klim-cicc.be;compauth=pass reason=100
+x-ms-office365-filtering-correlation-id: 2671baba-21bb-43e8-2b93-08dd0e245bc3
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|3072899012|3092899012|12012899012|5062899012|2092899012|29132699027|69100299015|4076899003|8096899003;
+x-forefront-antispam-report:
+ CIP:167.89.2.48;CTRY:US;LANG:nl;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:xtrwhnph.outbound-mail.sendgrid.net;PTR:xtrwhnph.outbound-mail.sendgrid.net;CAT:NONE;SFS:(13230040)(3072899012)(3092899012)(12012899012)(5062899012)(2092899012)(29132699027)(69100299015)(4076899003)(8096899003);DIR:INB;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic:
+ AMS1EPF00000040:EE_|AS8P193MB1224:EE_|AM9P193MB0951:EE_
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=klim-cicc.be;
+	h=mime-version:from:subject:content-type:content-transfer-encoding:to:
+	cc:content-type:from:subject:to;	s=lim;
+ bh=1oqyOtaHQwJcdHWf+VRCKk8ENZ9srYZKkbiDU3LdW4w=;
+	b=J3PSG724bToxrqYe3tb3mMgGi7k3ScLYNW1DpaBORazh3mXPdVSlffTw4aXZZEtm/UIu
+	eBy6EUbZBSdazLOZ/sqbYiAXDYUmNvG/a8vUSpe8DBOIkrKivn74FcEziDVp02YZ9N3XE4
+	dXUcbQPFuwQieo0eEn/9UEBH/p56HMjNQf5aI88VlbRm5XOrRi6hRaKly4G72yAQ2jtweu
+	Z3FZSpRPETnQfIhuR2n8u9XMbzuywS4NJn72ScCK8K/LEYKml8cv4NJqftqfedcixA7jOJ
+	LqzzFDEgpqVDO0oRPhRVQnxvRNQEbmJNLpwYL6VkNJpoevp9/RgscZRgbjnPvUCQ==
+x-ms-exchange-crosstenant-network-message-id:
+ 2671baba-21bb-43e8-2b93-08dd0e245bc3
+x-ms-exchange-crosstenant-originalarrivaltime: 26 Nov 2024 14:12:27.3076 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Internet
+x-ms-exchange-crosstenant-id: 0d4aea1a-7ef6-4f75-b046-c37c8fa05bea
+x-ms-exchange-transport-crosstenantheadersstamped: AS8P193MB1224
+x-ms-exchange-transport-endtoendlatency: 00:00:03.5938115
+x-eopattributedmessage: 0
+x-eoptenantattributedmessage: 0d4aea1a-7ef6-4f75-b046-c37c8fa05bea:0
+x-ms-exchange-processed-by-bccfoldering: 15.20.8207.007
+x-ms-exchange-atpmessageproperties: SA|SL
+x-ms-exchange-crosstenant-authas: Anonymous
+x-ms-exchange-crosstenant-authsource:
+ AMS1EPF00000040.eurprd04.prod.outlook.com
+x-sg-eid:
+ u001.wgPQEA+gt/9mQv4JaEv+7UaYhv6fdD6rIxyCyPinHFcaGn4objaB/L38wgENHlpeSzRJfgifA9NP5R0w2TUoDemzvw2NfJu+VA5q1rK4njpjCaTmYO9CuCyWyJ9ssEziIUV6SL9hfsljA2sJmS4diW8u/oe5MLK/F1z6GLiIUuLmdvBrF29KOE8kxGx/LeVUP9lRiArcati1nxNROAKHeg==
+x-entity-id: u001.poY1tvLgrRqRweP/woetiw==
+X-Microsoft-Antispam-Mailbox-Delivery:
+ ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+ =?iso-8859-1?Q?u0F9BPP75K6AHr6ua99obyT443xEkW3UQc++W4xwE41vOR/o0VGajEfOec?=
+ =?iso-8859-1?Q?b9jiaytokAk5NewUPLadCJO8hHAyr15iBIWLUDHtYm0nqj/gDS6U8X7i6d?=
+ =?iso-8859-1?Q?ZPjYVfWaDMKWW3PzjDCDajKAw0/78eOuUUtMXXILw9EqIPpovjRocYqWIS?=
+ =?iso-8859-1?Q?1SzATRvsnHiibECb0XxbsKsPaV5qFB0dkehECKjJ9STECHMbfPWpyO6GkC?=
+ =?iso-8859-1?Q?YgzCfhtJSERev3Ae+ef8TWtGdVIr4bg1n7Z29w9BKlHYTUU10aJ1xFR2mR?=
+ =?iso-8859-1?Q?6CTbUhXysENH3AJxauGO84xkNLVlyvXmE6zSgE4NJGocFwEZT6uMLd3PKF?=
+ =?iso-8859-1?Q?HJhc9FocMzJmirn/eH3X3T4czjHxlZPxcaDhRmiigCDlXqM1iSf7fkkxAI?=
+ =?iso-8859-1?Q?oXAgESE14xuO7pAhOP3srQNlx6vyAoSz7PM24fV14OViNO9XFnbB9xZB8w?=
+ =?iso-8859-1?Q?bv02C8pIvMXdK3g7/4K50JtxYSAiTudsYacCyUx1nb+Iilfsm33M6N59n4?=
+ =?iso-8859-1?Q?5sKtBfX8F/790N5kwyYVT/jTILY+P5SgYXPwa6mwRnhCb9U/uuC5/Epkr2?=
+ =?iso-8859-1?Q?0UnkvOsBn9UolHretoPqhveWVmuQBPqrkulBoyeEmANd1/C/xslaxe3yY5?=
+ =?iso-8859-1?Q?5ymLNP/yXMTS8rihzIIaPzkAHRlncKsjNg3c3aTiau6dUiPMAKrIHqs/qj?=
+ =?iso-8859-1?Q?7oEXq7B+KVm1CTldXSx4HQsyU/pLwr7LJOmluG9e73rIf03GzHQPI83jqY?=
+ =?iso-8859-1?Q?awwa9+O6x+VLJggtUwPPTEPK7ud/vc3hv8d/5c0EaKfa0TpnSMeRWiN3Jt?=
+ =?iso-8859-1?Q?/brJVM1RpNf5cralCanvk0XadYXBl24b6zgxSf+mLox9Sc4kRsMzOgzIzN?=
+ =?iso-8859-1?Q?SIYiCiaYJYgmCzpdnU9PhmA06hhErqHmr1us/cZG2OmuQwKqlIrULqDWdz?=
+ =?iso-8859-1?Q?exyCAidmxv0vfGNOHONsueNwO1WHIia6hf05coW6fQH5mErSCitIn0d49i?=
+ =?iso-8859-1?Q?sUamTMyZuxb+Uvr9SD9cptd7nVl/HTje4Ksm/2wltE8ZnaDM6qoj5hC8oJ?=
+ =?iso-8859-1?Q?vEKQiW1lcgVgRn2Z48hi72exGM/gOj2pl5Yp6LzeXfUT8NqMq4XZ7pySiu?=
+ =?iso-8859-1?Q?VxwUVT7zC1pw90L7AO3C9V4Wp/w7eTlVZBYSKgoK+Cly5xeZjLkNbvxFtR?=
+ =?iso-8859-1?Q?K1AeotNDVz4na1NIgyoui49bOPPVQZ3W/+N8MoDWmFConiw2V4sNiRB5YB?=
+ =?iso-8859-1?Q?MV3zn5vGEuatYi6VLbGEuqbjZ6jeheuK68XEDQ0EpY7Cx4S+MCyaRxv3K1?=
+ =?iso-8859-1?Q?K+WStiV5ennsKqUTDJigBPAG7ZKWuQ6BaHQJ/kIZWctVhcG3XFkzZOkONw?=
+ =?iso-8859-1?Q?K2V5KPL9Ck31uImDet9Q8pTkBIyIOJ9vv0bEk46IGRJATsGhNc1+ZVbVzR?=
+ =?iso-8859-1?Q?zNzHinn83tVe/IkhiFLavTHiu9oKQ8WRcdrvO7cNa+jasJV3+YYrFCl+IA?=
+ =?iso-8859-1?Q?OdF+f5mx5XSbhnq+qxfCyTXsdT7nJKICqTpiQeC/8CSPWnkkoHGEa8HgM/?=
+ =?iso-8859-1?Q?oYSgvE/w3u+TO8wSaNtpnQmp1rUnIt17MYAgPH+vKS5/Ozb7FGxEPnCeU0?=
+ =?iso-8859-1?Q?rph9kgPGi6Cal7xP1c4dLTHKAmn6QLD8bO9Bp0yJnBXMbzm9t9KDdmQHSC?=
+ =?iso-8859-1?Q?21V36QIBHEIpMa4IKj2tbBo/RAW2jQLeYXbhrGsmy8BEQAyaG5g/Sf6x09?=
+ =?iso-8859-1?Q?GP0QDWT02tT4RkETUoaM9GtDPSH6tz0ThCKkR+pRU91LvU/fm3jTGeM7fW?=
+ =?iso-8859-1?Q?mHIC28ui2gPVrynEgWfzsj4P2xiTgp4FlrSGYa2BMN5oJA1vacMeQ++MXO?=
+ =?iso-8859-1?Q?bnUK2xFt65okvrTFLuk7u5hGthDY7CVEKiELkFwfomBqGa0SQAoCScFnPn?=
+ =?iso-8859-1?Q?a6NAqLizur15Cyp3ug/Qm8T7y2Ei1NsS4oeWK2Zq41kBzI3ZtTFpFLHjCK?=
+ =?iso-8859-1?Q?MV6ZJeTz2eVHKGmhfAcD2duKrgKy21BnFQhXE6lI/hhvSiEo7ZAQ92gsav?=
+ =?iso-8859-1?Q?w9fo5euuihr5?=
+Content-Type: multipart/alternative;
+	boundary="_000_45ealiCQXOHTos33LohBggeopodismtpdcanary0_"
+MIME-Version: 1.0
+
+--_000_45ealiCQXOHTos33LohBggeopodismtpdcanary0_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Geachte mevrouw
+
+Geachte heer
+
+U heeft onlangs een KLIM-CICC planaanvraag gemaakt.
+
+Hieronder vindt u een gedetailleerd overzicht van de planaanvraag:
+
+AANVRAAG:
+
+KLIM-CICC id: 8bfe9be0-3899-48c5-8516-3dcf6630c6ed
+Uw referentie: 5190
+Externe referentie:
+Gemaakt op: 26-11-2024 15:11 GMT+1
+
+AANVRAGER:
+
+E-mailadres: sdg@notariaatwv.be
+Type gebruiker: Notaris
+Onderneming: Notariaat Wellens - Vreven
+Contactpersoon: De Greef Scott
+Adres:  Eggestraat 28
+         2640 - Mortsel ( Belgi=EB )
+Telefoon: 034499917
+
+
+DATA AANVRAAG:
+
+
+Type melding: Opvragen van erfdienstbaarheden
+Type werk:
+Uitvoeringsmethode:
+Uw referentie: 5190
+Omschrijving werken [of percelen - Notaris]:
+Datum aanvraag: 26-11-2024 15:11 GMT+1
+Startdatum werken [of ontvangst info - Notaris]:26-12-2024
+Geplande einddatum van de werken:
+Lokalisatie [gemeente, straten, huisnummers]: August van de Wielelei 58, 21=
+00 Antwerpen, Belgi=EB
+Lambert co=F6rdinaten: 157609.16480068438, 212099.2720846043
+
+PLANAANVRAAG:
+
+De eventueel afgebeelde kadastrale data mogen in geen geval een officieel k=
+adastraal uittreksel vervangen.
+
+ <https://klim-cicc.be/planrequest/attachment/download/b9f2e91b-4dda-4e0e-9=
+881-9a52c3540033?autoredirect=3Dtrue>
+
+Betrokken KLIM-CICC-Leden voor de werkzone:
+
+Er zijn geen KLIM leden betrokken voor deze aanvraag.
+
+Geraadpleegde leden van KLIM-CICC:
+
+Quinten Matsys, WINGAS (via Fluxys), VESTA, TOTAL OLEFINS ANTWERP, TotalEne=
+rgies Marketing Belgium, ELIA, VITOL TANK TERMINALS INTERNATIONAL, PPS (for=
+ TSN), Pipelink, ESSO BELGIUM, Nitraco, DOW BENELUX, AIR LIQUIDE, VYNOVA TE=
+SSENDERLO, ROTTERDAM-ANTWERPEN PIJPLEIDING, Gasunie (via Fluxys), INTERCONN=
+ECTOR UK, FLUXYS BELGIUM, ARG MBH & CO, BELGIAN PIPELINE ORGANISATION (NATO=
+ PIPELINES), ANTWERP GAS TERMINAL, ARCELORMITTAL BELGIUM, INOVYN MANUFACTUR=
+ING BELGIUM, Shell Nederland Chemie B.V. (t.n.v. SPS), PRAXAIR PRODUCTION, =
+BASF ANTWERPEN, SOWAER, PALL , GASSCO, AIR PRODUCTS, Intero - The Sniffers
+
+NB: De getekende zone bevindt zich in Vlaanderen. Deze aanvraag zal NIET aa=
+n KLIP overgemaakt worden. Uw aanvraag zal enkel als informatieaanvraag ove=
+rgemaakt worden aan de transportbedrijven via pijpleidingen en Elia. U mag =
+geen werken aanvangen alvorens u een aanvraag van het type "uitvoering gron=
+dwerken" via KLIP heeft uitgevoerd.
+
+Gelieve deze e-mail niet te beantwoorden, hij is automatisch gegenereerd.
+
+Hoogachtend
+
+Het KLIM-CICC-Team
+
+ <https://u45009944.ct.sendgrid.net/wf/open?upn=3Du001.yT6R55HaTNGCUfMszNUz=
+WzgC1320FP1tC7wWEOpfVZJEzzaw9vHq8dxa9kpXORv-2BZ-2BCKI99qkynmIH9AtcdXmdv3-2F=
+FOeCzfo3ymn2xZPOu-2FtFhkvdx7vHk1nmWy6J8bgZ84dwrodYOrhv70I8rOrvbYyF57YHQPC5h=
+Xtowyr410ioct1sJ7rdFZ92eNeNxB0sDDgtTv-2FElNGd-2B8zGVUd1A-3D-3D>
+
+--_000_45ealiCQXOHTos33LohBggeopodismtpdcanary0_
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <D86568FB2D646545ADF8AE2FB8A7A1E0@EURP193.PROD.OUTLOOK.COM>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<p>Geachte mevrouw</p>
+<p style=3D"margin-bottom:2rem;">Geachte heer</p>
+<p>U heeft onlangs een KLIM-CICC planaanvraag gemaakt.</p>
+<p>Hieronder vindt u een gedetailleerd overzicht van de planaanvraag:</p>
+<p><strong><u>AANVRAAG:</u></strong></p>
+<p class=3D"container">KLIM-CICC id: 8bfe9be0-3899-48c5-8516-3dcf6630c6ed <=
+br>
+Uw referentie: 5190 <br>
+Externe referentie: <br>
+Gemaakt op: 26-11-2024 15:11 GMT+1 </p>
+<p><strong><u>AANVRAGER:</u></strong></p>
+<p class=3D"container"><strong>E-mailadres: </strong>sdg@notariaatwv.be <br=
+>
+<strong>Type gebruiker: </strong>Notaris <br>
+<strong>Onderneming: </strong>Notariaat Wellens - Vreven <br>
+<strong>Contactpersoon: </strong>De Greef Scott
+<table style=3D"border-collapse:collapse;margin-top:-0.9rem;margin-bottom:-=
+0.9rem;">
+<tbody>
+<tr>
+<td><strong>Adres: </strong></td>
+<td>Eggestraat 28</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>2640 - Mortsel ( Belgi=EB )</td>
+</tr>
+</tbody>
+</table>
+<strong>Telefoon: </strong>034499917 <br>
+</p>
+<p><strong><u>DATA AANVRAAG:</u></strong></p>
+<p class=3D"container"><br>
+<strong>Type melding: </strong>Opvragen van erfdienstbaarheden <br>
+<strong>Type werk: </strong><br>
+<strong>Uitvoeringsmethode: </strong><br>
+<strong>Uw referentie: </strong>5190 <br>
+<strong>Omschrijving werken [of percelen - Notaris]: </strong><br>
+<strong>Datum aanvraag: </strong>26-11-2024 15:11 GMT+1 <br>
+<strong>Startdatum werken [of ontvangst info - Notaris]:</strong>26-12-2024=
+ <br>
+<strong>Geplande einddatum van de werken: </strong><br>
+<strong>Lokalisatie [gemeente, straten, huisnummers]: </strong>August van d=
+e Wielelei 58, 2100 Antwerpen, Belgi=EB
+<br>
+<strong>Lambert co=F6rdinaten: </strong>157609.16480068438, 212099.27208460=
+43 </p>
+<p><strong><u>PLANAANVRAAG:</u></strong></p>
+<p>De eventueel afgebeelde kadastrale data mogen in geen geval een officiee=
+l kadastraal uittreksel vervangen.</p>
+<img src=3D"https://klim-cicc.be/planrequest/attachment/download/b9f2e91b-4=
+dda-4e0e-9881-9a52c3540033?autoredirect=3Dtrue" alt=3D"Image map">
+<p><strong><u>Betrokken KLIM-CICC-Leden voor de werkzone:</u></strong></p>
+<p class=3D"container">
+<table>
+<tbody>
+<tr>
+<td>Er zijn geen KLIM leden betrokken voor deze aanvraag.</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p><strong><u>Geraadpleegde leden van KLIM-CICC:</u></strong></p>
+<p>Quinten Matsys, WINGAS (via Fluxys), VESTA, TOTAL OLEFINS ANTWERP, Total=
+Energies Marketing Belgium, ELIA, VITOL TANK TERMINALS INTERNATIONAL, PPS (=
+for TSN), Pipelink, ESSO BELGIUM, Nitraco, DOW BENELUX, AIR LIQUIDE, VYNOVA=
+ TESSENDERLO, ROTTERDAM-ANTWERPEN
+ PIJPLEIDING, Gasunie (via Fluxys), INTERCONNECTOR UK, FLUXYS BELGIUM, ARG =
+MBH &amp; CO, BELGIAN PIPELINE ORGANISATION (NATO PIPELINES), ANTWERP GAS T=
+ERMINAL, ARCELORMITTAL BELGIUM, INOVYN MANUFACTURING BELGIUM, Shell Nederla=
+nd Chemie B.V. (t.n.v. SPS), PRAXAIR
+ PRODUCTION, BASF ANTWERPEN, SOWAER, PALL , GASSCO, AIR PRODUCTS, Intero - =
+The Sniffers
+</p>
+<p></p>
+<div class=3D"container">
+<p>NB: De getekende zone bevindt zich in Vlaanderen. Deze aanvraag zal NIET=
+ aan KLIP overgemaakt worden. Uw aanvraag zal enkel als informatieaanvraag =
+overgemaakt worden aan de transportbedrijven via pijpleidingen en Elia. U m=
+ag geen werken aanvangen alvorens
+ u een aanvraag van het type &quot;uitvoering grondwerken&quot; via KLIP he=
+eft uitgevoerd.</p>
+</div>
+<p></p>
+<p style=3D"margin-bottom:2rem;">Gelieve deze e-mail niet te beantwoorden, =
+hij is automatisch gegenereerd.</p>
+<p>Hoogachtend</p>
+<p>Het KLIM-CICC-Team</p>
+<img src=3D"https://u45009944.ct.sendgrid.net/wf/open?upn=3Du001.yT6R55HaTN=
+GCUfMszNUzWzgC1320FP1tC7wWEOpfVZJEzzaw9vHq8dxa9kpXORv-2BZ-2BCKI99qkynmIH9At=
+cdXmdv3-2FFOeCzfo3ymn2xZPOu-2FtFhkvdx7vHk1nmWy6J8bgZ84dwrodYOrhv70I8rOrvbYy=
+F57YHQPC5hXtowyr410ioct1sJ7rdFZ92eNeNxB0sDDgtTv-2FElNGd-2B8zGVUd1A-3D-3D" a=
+lt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !importan=
+t;width:1px !important;border-width:0 !important;margin-top:0 !important;ma=
+rgin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important=
+;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !impo=
+rtant;padding-left:0 !important;">
+</body>
+</html>
+
+--_000_45ealiCQXOHTos33LohBggeopodismtpdcanary0_--

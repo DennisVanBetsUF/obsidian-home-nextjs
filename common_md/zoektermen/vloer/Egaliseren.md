@@ -1,0 +1,3 @@
+Voor vloerafwerkingen heb je een vlakke ondergrond nodig. Bij een nieuwe chape is dat geen probleem. Bij renovaties, waar je waarschijnlijk eerst moet uitbreken, is dat lang niet altijd zo. Er mogen geen oneffenheden van meer dan 3 mm zijn. Is dat wel zo? Dan moet de vloer eerst geëgaliseerd worden. Dat kan met egalisatiemortels. 
+
+De maximale dikte van de egalisatielaag variëert, afhankelijk van de mortelsamenstelling, van 0,5 mm tot 30 mm. Merk je dat er putten in de ondervloer voorkomen die een grotere diepte hebben, dan moeten die eerst worden uitgevlakt. Dat kan bijvoorbeeld met een chapemix.

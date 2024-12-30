@@ -1,0 +1,3 @@
+Heb je vloerverwarming gekozen, dan plaats je die uiteraard bovenop de [[Vloerisolatie|isolatielaag]]. Er zijn ruwweg twee methodes. Het vaakst komt de zogenaamde natte methode voor, daarmee wordt bedoeld dat de buizen op de isolatielaag worden gelegd. Daarbij plaats je eerst een roosterfolie en daarop maak je dan de verwarmingsbuizen in slakkenhuispatroon vast. De chape wordt rechtstreeks op de buizen gegoten.
+
+Bij een droog systeem daarentegen ligt de vloerverwarming verzonken in de isolatieplaten. Daarvoor is dan in de platen zelf reeds een uitsparing gemaakt. Bovenop die constructie komt dan een metalen plaat die de warmteverdeling bewerkstelligt. Daarop komt de [[Chape|chapelaag]] terecht.
