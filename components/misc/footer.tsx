@@ -1,4 +1,3 @@
-import PreviewLink from "./preview-link"
 
 const Footer = () => {
   return (

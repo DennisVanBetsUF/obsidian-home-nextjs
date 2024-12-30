@@ -20,8 +20,8 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
   const links = (getLinksMapping())[currSlug] as string[]
   const linkNodeMapping = new Map<string, Element>();
   for (const l of links) {
-    const post = getPostBySlug(l, ['title', 'content']);
-    const node = createNoteNode(post.title, post.content)
+    const post = getPostBySlug(l, ['title', 'excerpt']);
+    const node = createNoteNode(post.title, post.excerpt)
     linkNodeMapping[l] = node
   }
 
@@ -42,7 +42,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
 
 export function getMDExcerpt(markdown: string, length: number = 500) {
   const text = removeMd(markdown, {
-    stripListLeaders: false, 
+    stripListLeaders: false,
     gfm: true,
   }) as string
   return text.slice(0, length).trim();

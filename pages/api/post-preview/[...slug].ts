@@ -12,6 +12,5 @@ export default function postHandler(req: NextApiRequest, res: NextApiResponse) {
     res.status(405).send(`Method ${method} Not Allowed`)
   }
   const post = getPostBySlug(path.join(...(slug as string[])), ['title', 'excerpt']);
-  console.log('getting post preview...', post);
   res.status(200).json(post);
 }
