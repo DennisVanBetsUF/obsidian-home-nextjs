@@ -5,12 +5,15 @@ import remarkRehype from 'remark-rehype'
 import rehypeSanitize from 'rehype-sanitize'
 import rehypeRewrite from 'rehype-rewrite';
 import rehypeStringify from 'rehype-stringify'
+
 import { getLinksMapping, getPostBySlug, getSlugFromHref, updateMarkdownLinks } from './api'
 import removeMd from 'remove-markdown'
 import {Element} from 'hast-util-select'
 import { renderToStaticMarkup } from "react-dom/server"
 import NotePreview from '../components/misc/note-preview'
 import { fromHtml } from 'hast-util-from-html'
+import {remarkCallout} from "@r4ai/remark-callout/src";
+import rehypeRaw from "rehype-raw";
 
 
 export async function markdownToHtml(markdown: string, currSlug: string) {
@@ -25,19 +28,20 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
     linkNodeMapping[l] = node
   }
 
-  const file = await unified()
+  return unified()
     .use(remarkParse)
-    .use(remarkGfm)
-    .use(remarkRehype)
-    .use(rehypeSanitize)
+    .use(remarkCallout)
+    // .use(remarkGfm)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw)
+    // .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
       rewrite: async (node) => rewriteLinkNodes(node, linkNodeMapping, currSlug)
     })
     .use(rehypeStringify)
-    .process(markdown)
-  let htmlStr = file.toString()
-  return htmlStr;
+    .processSync(markdown)
+    .toString();
 }
 
 export function getMDExcerpt(markdown: string, length: number = 500) {
