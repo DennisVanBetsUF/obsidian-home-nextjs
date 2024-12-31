@@ -10,7 +10,6 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@microflash/remark-callout-directives": "^4.3.2",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
     "dotenv": "^16.0.3",
@@ -26,7 +25,6 @@
     "rehype-sanitize": "^5.0.1",
     "rehype-stringify": "^9.0.3",
     "remark": "^14.0.2",
-    "remark-directive": "^3.0.0",
     "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.1",
     "remark-rehype": "^10.1.0",

@@ -11,8 +11,6 @@ import {Element} from 'hast-util-select'
 import { renderToStaticMarkup } from "react-dom/server"
 import NotePreview from '../components/misc/note-preview'
 import { fromHtml } from 'hast-util-from-html'
-import remarkDirective from "remark-directive";
-import remarkCalloutDirectives from "@microflash/remark-callout-directives"
 
 
 export async function markdownToHtml(markdown: string, currSlug: string) {
@@ -29,16 +27,14 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
 
   const file = await unified()
     .use(remarkParse)
-    .use(remarkDirective)
-    .use(remarkCalloutDirectives)
     .use(remarkGfm)
-    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(remarkRehype)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
       rewrite: async (node) => rewriteLinkNodes(node, linkNodeMapping, currSlug)
     })
-    .use(rehypeStringify, { allowDangerousHtml: true })
+    .use(rehypeStringify)
     .process(markdown)
   let htmlStr = file.toString()
   return htmlStr;
