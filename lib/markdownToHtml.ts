@@ -11,7 +11,7 @@ import {Element} from 'hast-util-select'
 import { renderToStaticMarkup } from "react-dom/server"
 import NotePreview from '../components/misc/note-preview'
 import { fromHtml } from 'hast-util-from-html'
-import {remarkCallout} from "@r4ai/remark-callout/src";
+
 
 export async function markdownToHtml(markdown: string, currSlug: string) {
   markdown = updateMarkdownLinks(markdown, currSlug);
@@ -28,8 +28,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
   const file = await unified()
     .use(remarkParse)
     .use(remarkGfm)
-    .use(remarkCallout)
-    .use(remarkRehype, {allowDangerousHtml: true})
+    .use(remarkRehype)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',

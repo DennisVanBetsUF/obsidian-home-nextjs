@@ -10,7 +10,6 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@r4ai/remark-callout": "^0.6.2",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
     "dotenv": "^16.0.3",
@@ -39,7 +38,6 @@
     "@types/react-dom": "^18.0.6",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.2.4",
-    "@r4ai/remark-callout": "^0.6.2"
+    "tailwindcss": "^3.2.4"
   }
 }
