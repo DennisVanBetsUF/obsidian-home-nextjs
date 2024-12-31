@@ -28,9 +28,9 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
 
   const file = await unified()
     .use(remarkParse)
-    .use(callouts)
     .use(remarkGfm)
     .use(remarkRehype)
+    .use(callouts)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
