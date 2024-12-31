@@ -3,3 +3,4 @@
 @tailwind utilities;
 
 @import 'additional-styles/utils.css'
+@import "remark-callouts/styles.css"
