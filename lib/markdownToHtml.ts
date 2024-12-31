@@ -5,6 +5,7 @@ import remarkRehype from 'remark-rehype'
 import rehypeSanitize from 'rehype-sanitize'
 import rehypeRewrite from 'rehype-rewrite';
 import rehypeStringify from 'rehype-stringify'
+import remarkCallout from 'remark-callout';
 import { getLinksMapping, getPostBySlug, getSlugFromHref, updateMarkdownLinks } from './api'
 import removeMd from 'remove-markdown'
 import {Element} from 'hast-util-select'
@@ -27,6 +28,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
 
   const file = await unified()
     .use(remarkParse)
+    .use(remarkCallout)
     .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypeSanitize)
