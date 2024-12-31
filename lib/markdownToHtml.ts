@@ -31,9 +31,9 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
     .use(remarkParse)
     .use(remarkDirective)
     .use(remarkCalloutDirectives)
-    .use(remarkGfm)
+    // .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeSanitize)
+    // .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
       rewrite: async (node) => rewriteLinkNodes(node, linkNodeMapping, currSlug)
