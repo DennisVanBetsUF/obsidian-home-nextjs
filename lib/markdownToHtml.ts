@@ -28,8 +28,8 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
 
   const file = await unified()
     .use(remarkParse)
-    .use(remarkGfm)
     .use(callouts)
+    .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
