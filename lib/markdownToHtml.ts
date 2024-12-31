@@ -27,9 +27,9 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
     linkNodeMapping[l] = node
   }
 
-  return unified()
+  let html = await unified()
     .use(remarkParse)
-    .use(remarkGfm)
+    // .use(remarkGfm)
     .use(remarkRehype)
     .use(plugin)
     .use(rehypeSanitize)
@@ -38,8 +38,8 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
       rewrite: async (node) => rewriteLinkNodes(node, linkNodeMapping, currSlug)
     })
     .use(rehypeStringify)
-    .processSync(markdown)
-    .toString();
+    .process(markdown);
+  return html.toString();
 }
 
 export function getMDExcerpt(markdown: string, length: number = 500) {
