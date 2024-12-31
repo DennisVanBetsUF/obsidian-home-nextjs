@@ -30,7 +30,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype)
-    .use(callouts)
+    // .use(callouts)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
