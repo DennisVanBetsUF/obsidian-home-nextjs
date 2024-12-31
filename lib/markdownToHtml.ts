@@ -12,7 +12,7 @@ import {Element} from 'hast-util-select'
 import { renderToStaticMarkup } from "react-dom/server"
 import NotePreview from '../components/misc/note-preview'
 import { fromHtml } from 'hast-util-from-html'
-import rehypeRaw from "rehype-raw";
+import plugin from "rehype-obsidian-callout";
 
 
 export async function markdownToHtml(markdown: string, currSlug: string) {
@@ -31,6 +31,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype)
+    .use(plugin)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
