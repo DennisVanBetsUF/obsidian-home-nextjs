@@ -30,8 +30,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
   return unified()
     .use(remarkParse)
     .use(remarkGfm)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw)
+    .use(remarkRehype)
     .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
