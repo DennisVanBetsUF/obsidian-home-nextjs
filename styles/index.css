@@ -2,4 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'additional-styles/utils.css'
+@import 'additional-styles/utils.css';
+@import 'rehype-obsidian-callout/dist/styles/styles.css';
