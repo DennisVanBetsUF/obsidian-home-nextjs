@@ -1,4 +1,5 @@
 @import 'additional-styles/utils.css';
+@import 'additional-styles/callouts.css';
 
 @tailwind base;
 @tailwind components;

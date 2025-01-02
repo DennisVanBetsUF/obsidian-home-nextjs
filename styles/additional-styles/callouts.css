@@ -1,27 +1,27 @@
 .callout-type-summary,
 .callout-type-todo,
 .callout-type-question {
-    --callout-color: var(--callout-note-rgb);
+  --callout-color: var(--callout-note-rgb);
 }
 
 .callout-type-info,
 .callout-type-success {
-    --callout-color: var(--callout-success-rgb);
+  --callout-color: var(--callout-success-rgb)
 }
 
 .callout-type-attention,
 .callout-type-danger {
-    --callout-color: var(--callout-warning-rgb);
+  --callout-color: var(--callout-warning-rgb);
 }
 
 .callout-type-bug,
 .callout-type-failure {
-    --callout-color: var(--callout-error-rgb);
+  --callout-color: var(--callout-error-rgb);
 }
 
 .callout-type-note,
 .callout-type-quote {
-    --callout-color: var(--callout-quote-rgb);
+  --callout-color: var(--callout-quote-rgb);
 }
 
 .callout-block {
@@ -55,6 +55,7 @@
     padding: 0 1rem;
 }
 
+
 /* remove default marker of details, which is before the element, and move it after the element */
 
 .callout-title-section::marker {
@@ -66,7 +67,7 @@
 }
 
 .callout-collapsible .callout-title::after {
-    content: " ►";
+    content: ' ►';
 }
 
 .callout-collapsible[open] .callout-title::after {

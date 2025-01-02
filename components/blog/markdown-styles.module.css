@@ -9,6 +9,11 @@
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+  --callout-note-rgb: 0, 176, 255;
+  --callout-success-rgb: 0, 200, 83;
+  --callout-warning-rgb: 255, 145, 0;
+  --callout-error-rgb: 255, 0, 0;
+  --callout-quote-rgb: 158, 158, 158;
 }
 
 .markdown-body .octicon {
