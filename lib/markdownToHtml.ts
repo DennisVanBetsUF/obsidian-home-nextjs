@@ -29,7 +29,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
 
   let html = await unified()
     .use(remarkParse)
-    // .use(remarkGfm)
+    .use(remarkGfm)
     .use(remarkRehype)
     .use(plugin)
     // .use(rehypeSanitize)
