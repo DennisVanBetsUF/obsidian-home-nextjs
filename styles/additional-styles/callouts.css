@@ -49,6 +49,10 @@
     background-color: rgba(var(--callout-color), 0.1);
 }
 
+.callout-icon-wrapper {
+    color: rgba(var(--callout-color), 1);
+}
+
 .callout-title-section {
     display: flex;
     align-items: center;
