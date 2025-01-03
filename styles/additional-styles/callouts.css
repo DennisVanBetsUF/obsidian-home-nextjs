@@ -39,6 +39,7 @@
     -webkit-margin-after: 1rem;
     margin-block-end: 1rem;
     border-radius: 12px;
+    padding-bottom: 1rem;
 }
 
 .callout-title-section .callout-type-summary,
@@ -71,11 +72,13 @@
     align-items: center;
     gap: 10px;
     padding-left: 1rem;
+    padding-top: .2rem;
 }
 
 .callout-title {
     font-weight: 600;
     font-size: 1.1rem;
+    margin: 0;
 }
 
 .callout-content-section {
