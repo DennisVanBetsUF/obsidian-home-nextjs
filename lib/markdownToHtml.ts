@@ -40,7 +40,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
     .use(remarkGfm)
     .use(remarkRehype)
     .use(calloutsPlugin, calloutsConfig)
-    .use(rehypeSanitize)
+    // .use(rehypeSanitize)
     .use(rehypeRewrite, {
       selector: 'a',
       rewrite: async (node) => rewriteLinkNodes(node, linkNodeMapping, currSlug)
