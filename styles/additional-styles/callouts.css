@@ -18,7 +18,8 @@
     --callout-color: var(--callout-success-rgb)
 }
 
-.callout-type-attention {
+.callout-type-attention,
+.callout-type-warning {
     --callout-color: var(--callout-warning-rgb);
 }
 
